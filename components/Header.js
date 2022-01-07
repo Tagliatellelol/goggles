@@ -38,7 +38,6 @@ const Header = () => {
             className="h-5 mr-3 dark:text-white text-black cursor-pointer transition duration-150
          transform hover:scale-125"
             onClick={() => (searchInputRef.current.value = "")}
-            onClick={() => router.push("/")}
           />
           <SearchIcon
             className="mr-3 h-6 hidden sm:inline-flex text-teal-500 
