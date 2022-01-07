@@ -35,11 +35,14 @@ export default function Home() {
 
         <div className="flex items-center">
           {colorTheme === "light" ? (
-            <button class="btn btn-outline" onClick={() => setTheme("light")}>
+            <button
+              className="btn btn-outline"
+              onClick={() => setTheme("light")}
+            >
               Light Mode
             </button>
           ) : (
-            <button class="btn" onClick={() => setTheme("dark")}>
+            <button className="btn" onClick={() => setTheme("dark")}>
               Dark Mode
             </button>
           )}
